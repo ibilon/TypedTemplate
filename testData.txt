@@ -1,0 +1,36 @@
+test" <? ?>
+
+<?haxe
+	print("<?haxe \" \n\thaxe?>");
+	print(vars.myvar);
+
+	for (i in 0...1)
+	{
+		print(Std.string(i));
+	}
+
+	var a = "hi";
+	print(a);
+
+	try
+	{
+		print("jo");
+	}
+	catch(e:String)
+	{
+		print(e);
+	}
+
+	print(Sys.args().join("#"));
+	var p = haxe.Http.PROXY;
+	if (p != null)
+	{
+		print(p.host);
+	}
+	else
+	{
+		print("no proxy set");
+	}
+
+	print(haxe.crypto.Md5.encode("test"));
+haxe?>

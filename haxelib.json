@@ -1,0 +1,14 @@
+{
+	"name": "typedtemplate",
+	"url" : "https://github.com/ibilon/typedtemplate/",
+	"license": "MIT",
+	"tags": ["template", "typed", "macro"],
+	"description": "",
+	"version": "1.0.0",
+	"releasenote": "Initial release",
+	"contributors": ["_ibilon"],
+	"classPath": "src",
+	"dependencies": {
+		"hxparse": ""
+	}
+}
